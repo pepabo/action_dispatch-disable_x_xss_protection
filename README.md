@@ -1,5 +1,7 @@
 # ActionDispatch::DisableXXssProtection
 
+[![Build Status](https://github.com/pepabo/action_dispatch-disable_x_xss_protection/workflows/build/badge.svg)](https://github.com/pepabo/action_dispatch-disable_x_xss_protection/actions?workflow=build)
+
 > Disables the X-XSS-Protection header which Action Dispatch sets by default
 
 This gem disables the X-XSS-Protection header which Action Dispatch sets as `1; mode=block` by default. Applications always return `X-XSS-Protection: 0` after installing this gem.
