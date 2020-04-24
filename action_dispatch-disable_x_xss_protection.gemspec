@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = ActionDispatch::DisableXXssProtection::VERSION
   spec.authors     = ["Kohei Yamamoto"]
   spec.email       = ["kymmt90@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of ActionDispatch::DisableXXssProtection."
-  spec.description = "TODO: Description of ActionDispatch::DisableXXssProtection."
+  spec.homepage    = "https://github.com/pepabo/action_dispatch-disable_x_xss_protection"
+  spec.summary     = "Disables the X-XSS-Protection header which Action Dispatch sets by default"
+  spec.description = "This gem disables the X-XSS-Protection header which Action Dispatch sets by default."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
